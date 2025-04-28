@@ -1,0 +1,12 @@
+[package]
+name = "winploit_proto"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64 = "0.22.1"
+dirs = "5.0"
+rand = "0.9.1"
+winapi = { version = "0.3", features = ["processthreadsapi", "winbase", "winnt", "minwindef", "ntdef", "winuser", "debugapi", "handleapi", "sysinfoapi", "winreg", "memoryapi", "wow64apiset", "impl-default", "winsock2", "ws2def", "basetsd"] }
+ntapi = "0.4"
+lazy_static = "1.4"
